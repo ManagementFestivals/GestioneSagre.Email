@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  email:
+    container_name: api-email
+    restart: always
+    build:
+      context: .
+      dockerfile: src/GestioneSagre.Email/Dockerfile
+    networks:
+      - lan-network
+
+networks:
+  lan-network:
+    external:
+      name: docker-net
