@@ -1,7 +1,4 @@
-﻿using System.Net.Mime;
-using Microsoft.AspNetCore.Mvc;
-
-namespace GestioneSagre.Email.Controllers.Common;
+﻿namespace GestioneSagre.Email.Controllers.Common;
 
 [ApiController]
 [Route("api/[controller]")]

@@ -1,9 +1,4 @@
-﻿using GestioneSagre.Email.Controllers.Common;
-using GestioneSagre.Email.Shared.Models;
-using GestioneSagre.Messaging.Abstractions;
-using Microsoft.AspNetCore.Mvc;
-
-namespace GestioneSagre.Email.Controllers;
+﻿namespace GestioneSagre.Email.Controllers;
 
 public class EmailController : BaseController
 {

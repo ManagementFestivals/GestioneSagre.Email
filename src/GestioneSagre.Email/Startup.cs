@@ -1,9 +1,4 @@
-﻿using GestioneSagre.Email.Shared.Models;
-using GestioneSagre.Messaging.RabbitMq;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
-using Microsoft.OpenApi.Models;
-
-namespace GestioneSagre.Email;
+﻿namespace GestioneSagre.Email;
 
 public class Startup
 {
