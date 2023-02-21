@@ -12,7 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestioneSagre.Email.Messaging\GestioneSagre.Email.Messaging.csproj" />
+    <ProjectReference Include="..\GestioneSagre.Email.Shared\GestioneSagre.Email.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GestioneSagre.Messaging">
+      <HintPath>..\..\..\GestioneSagre.Messaging.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

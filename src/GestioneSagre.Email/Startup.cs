@@ -1,5 +1,5 @@
-﻿using GestioneSagre.Email.Messaging.RabbitMq;
-using GestioneSagre.Email.Shared.Models;
+﻿using GestioneSagre.Email.Shared.Models;
+using GestioneSagre.Messaging.RabbitMq;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.OpenApi.Models;
 
