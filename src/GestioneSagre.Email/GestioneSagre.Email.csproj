@@ -9,11 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="GestioneSagre.Messaging" Version="1.0.1" />
+    <PackageReference Include="GestioneSagre.SharedKernel" Version="1.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\GestioneSagre.Email.Shared\GestioneSagre.Email.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
